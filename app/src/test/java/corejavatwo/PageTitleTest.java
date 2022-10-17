@@ -16,7 +16,6 @@ public class PageTitleTest {
         capabilities.getCapability("Brave"); // read browser the driver will use
         capabilities.setCapability("Brave","Brave"); // set to use Chrome browser
         capabilities.setCapability("platform", "win11"); // set to use Windows 11 as the OS
-
         RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.4:4444/wd/hub"), desiredCapabilities);
     }
 
