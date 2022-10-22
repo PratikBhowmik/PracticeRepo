@@ -25,6 +25,10 @@ public class MouseAndKeyboardActions {
 
         act.click(autoComplete).sendKeys("Art").perform();
 
+        WebElement searchElement = driver.findElement(By.xpath("//div[@title = 'Gladiator']"));
+
+        act.click(searchElement).perform();
+
 //        js.executeScript("window.scrollBy(0,900)");
 
 //        WebElement namefield = driver.findElement(By.xpath("//input[@placeholder = 'Name of  the user']"));
@@ -56,10 +60,6 @@ public class MouseAndKeyboardActions {
 //        act.click(pasteElement).perform();
 //
 //        act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).build().perform();
-
-
-
-
 
 //        WebElement hoverElement = driver.findElement(By.xpath("//div[@class = 'Mouse_section4']/p[text() = 'Password']"));
 //        act.moveToElement(hoverElement).perform();
