@@ -25,9 +25,13 @@ public class MouseAndKeyboardActions {
 
         act.click(autoComplete).sendKeys("Art").perform();
 
-        WebElement searchElement = driver.findElement(By.xpath("//div[@title = 'Gladiator']"));
+        Thread.sleep(3000);
 
-        act.click(searchElement).perform();
+//        act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).click().build().perform();
+
+        WebElement searchElement = driver.findElement(By.xpath("(//div[@class = 'wrapper']//following-sibling::li)[2]"));
+
+        act.moveToElement(searchElement).click().perform();
 
 //        js.executeScript("window.scrollBy(0,900)");
 
