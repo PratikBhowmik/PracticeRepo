@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/corejavatwo/MouseAndKeyboardActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/corejavatwo/MouseAndKeyboardActions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +70,17 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MouseAndKeyboardActions">
-    <configuration name="MouseAndKeyboardActions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejavatwo.MouseAndKeyboardActions" />
+  <component name="RunManager" selected="Application.UpperLowerCase">
+    <configuration name="BiggerDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.BiggerDate" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejavatwo.*" />
+          <option name="PATTERN" value="problemSolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +88,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejavatwo.Random" />
+    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.EvenOdd" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejavatwo.*" />
+          <option name="PATTERN" value="problemSolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatestOfThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.GreatestOfThreeNumbers" />
+      <module name="CoreJavatwo.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemSolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="On_To_Two_UsingLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.On_To_Two_UsingLoops" />
+      <module name="CoreJavatwo.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemSolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpperLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.UpperLowerCase" />
+      <module name="CoreJavatwo.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemSolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MouseAndKeyboardActions" />
-        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.UpperLowerCase" />
+        <item itemvalue="Application.BiggerDate" />
+        <item itemvalue="Application.On_To_Two_UsingLoops" />
+        <item itemvalue="Application.GreatestOfThreeNumbers" />
+        <item itemvalue="Application.EvenOdd" />
       </list>
     </recent_temporary>
   </component>
