@@ -11,17 +11,14 @@ public class PassCode {
         System.out.println(passCode(A, B));
     }
 
+    //aaaaaa + bbbb -> ababababaa
     static String passCode(String A, String B) {
         String passcode = "";
-        if (A.length() == B.length()) {
-            for (int i = 0; i < A.length(); i++) {
-                passcode = "" + passcode + A.charAt(i) + B.charAt(i);
-            }
-        } else if (A.length() != B.length()) {
-            for (int i = 0; i < A.length(); i++) {
-                passcode = "" + passcode + A.charAt(i) + B.charAt(i);
-            }
+        int min = Math.min(A.length(), B.length());
+        for (int i = 0; i <min; i++) {
+            passcode = passcode+A.charAt(i) + B.charAt(i);
         }
+        passcode += A.substring(min)+B.substring(min);
         return passcode;
     }
 }
