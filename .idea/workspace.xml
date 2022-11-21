@@ -7,8 +7,6 @@
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/PassCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/PassCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/DuplicateArrayStoring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/Triangle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +75,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PassCode">
-    <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.AnagramCheck" />
+  <component name="RunManager" selected="Application.ClassRep">
+    <configuration name="ClariFyingModuloAndDash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejavatwo.ClariFyingModuloAndDash" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemSolving.*" />
+          <option name="PATTERN" value="corejavatwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Duplicates_in_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.Duplicates_in_array" />
+    <configuration name="ClassRep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.ClassRep" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemSolving.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.FibonacciSeries" />
+    <configuration name="MatrixTsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.MatrixTsum" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemSolving.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplacingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.ReplacingString" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.RotateArray" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemSolving.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassRep" />
+        <item itemvalue="Application.ClariFyingModuloAndDash" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.MatrixTsum" />
         <item itemvalue="Application.PassCode" />
-        <item itemvalue="Application.ReplacingString" />
-        <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.AnagramCheck" />
-        <item itemvalue="Application.Duplicates_in_array" />
       </list>
     </recent_temporary>
   </component>
@@ -174,17 +172,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/dsa/PassCode.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

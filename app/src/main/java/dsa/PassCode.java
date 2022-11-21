@@ -10,12 +10,11 @@ public class PassCode {
         String B = scan.nextLine();
         System.out.println(passCode(A, B));
     }
-
     //aaaaaa + bbbb -> ababababaa
     static String passCode(String A, String B) {
         String passcode = "";
         int min = Math.min(A.length(), B.length());
-        for (int i = 0; i <min; i++) {
+        for (int i = 0; i < min; i++) {
             passcode = passcode+A.charAt(i) + B.charAt(i);
         }
         passcode += A.substring(min)+B.substring(min);
