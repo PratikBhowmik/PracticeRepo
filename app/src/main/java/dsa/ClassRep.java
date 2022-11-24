@@ -22,21 +22,36 @@ public class ClassRep {
         }
     }
 
-    public static boolean increasing(int[] num) {
-        for (int i = 0; i < num.length - 2; i++) {
-            if (num[i] < num[i + 2]) {
+    static boolean increasing(int[] num) {
+        if (num[0] < num[2]) {
+            int i = 2;
+            while (i < num.length && num[i] > num[i - 2]) {
+                i += 2;
+            }
+            if (i >= num.length - 1) {
+                return true;
+            } else {
+                return false;
             }
         }
-        return true;
+        return false;
     }
 
-    public static boolean decreasing(int[] num) {
-        for (int i = 0; i < num.length - 2; i++) {
-            if (num[i] > num[i + 2]) {
+    static boolean decreasing(int[] num) {
+        if (num[0] > num[2]) {
+            int i = 2;
+            while (i < num.length && num[i - 2] > num[i]) {
+                i += 2;
+            }
+            if (i >= num.length - 1) {
+                return true;
+            } else {
+                return false;
             }
         }
-        return true;
+        return false;
     }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
