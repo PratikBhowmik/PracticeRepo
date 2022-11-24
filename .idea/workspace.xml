@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/PassCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/PassCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/ClassRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/ClassRep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClassRep">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
     <configuration name="ClariFyingModuloAndDash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corejavatwo.ClariFyingModuloAndDash" />
       <module name="CoreJavatwo.app.main" />
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.MatrixTsum" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.LongestCommonPrefix" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.PassCode" />
+    <configuration name="MatrixTsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.MatrixTsum" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.ClassRep" />
         <item itemvalue="Application.ClariFyingModuloAndDash" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.MatrixTsum" />
-        <item itemvalue="Application.PassCode" />
       </list>
     </recent_temporary>
   </component>
