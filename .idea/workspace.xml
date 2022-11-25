@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/ClassRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/ClassRep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/MatrixTsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/MatrixTsum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
+  <component name="RunManager" selected="Application.MatrixTsum">
     <configuration name="ClariFyingModuloAndDash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corejavatwo.ClariFyingModuloAndDash" />
       <module name="CoreJavatwo.app.main" />
@@ -96,6 +95,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JustCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejavatwo.JustCheck" />
+      <module name="CoreJavatwo.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejavatwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.RotateArray" />
-      <module name="CoreJavatwo.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixTsum" />
+        <item itemvalue="Application.JustCheck" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.ClassRep" />
         <item itemvalue="Application.ClariFyingModuloAndDash" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.MatrixTsum" />
       </list>
     </recent_temporary>
   </component>
