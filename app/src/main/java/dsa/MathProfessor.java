@@ -1,7 +1,5 @@
 package dsa;
-
 import java.util.*;
-
 public class MathProfessor {
     static int[] mathProfessor(int n, String B, String[] a) {
         char[] arrayB = B.toCharArray();
@@ -18,12 +16,14 @@ public class MathProfessor {
         for (int i = 0; i < a.length; i++) {
             Set<Character> setA = new HashSet<>();
             for (int j = 0; j < a[i].length(); j++) {
-                if (!a[i].charAt(j)) {
+                if (!(a[i].charAt(j) == ' ')) {
                     setA.add(a[i].charAt(j));
                 }
             }
             listC.add(setA);
         }
+
+
         for (Set s : listC) {
             int count = 0;
             Iterator<Character> it = setB.iterator();
@@ -34,8 +34,14 @@ public class MathProfessor {
                 }
             }
             result.add(count);
-
         }
+
+
+        int[] finalResult = new int[result.size()];
+        for (int i = 0; i < finalResult.length; i++) {
+            finalResult[i] = result.get(i);
+        }
+        return finalResult;
     }
 
     public static void main(String[] args) {
