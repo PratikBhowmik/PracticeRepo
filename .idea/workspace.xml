@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/MathProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/MathProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +74,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MathProfessor">
-    <configuration name="ClassRep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.ClassRep" />
+  <component name="RunManager" selected="Application.Just">
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.IsPalindrome" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
@@ -88,25 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JustCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejavatwo.JustCheck" />
+    <configuration name="Just" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejavatwo.Just" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="corejavatwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.LongestCommonPrefix" />
-      <module name="CoreJavatwo.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.MatrixTsum" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejavatwo.Sort" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dsa.*" />
+          <option name="PATTERN" value="corejavatwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejavatwo.StringReverse" />
+      <module name="CoreJavatwo.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejavatwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Just" />
+        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.StringReverse" />
         <item itemvalue="Application.MathProfessor" />
-        <item itemvalue="Application.MatrixTsum" />
-        <item itemvalue="Application.JustCheck" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.ClassRep" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +171,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/corejavatwo/StringReverse.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
