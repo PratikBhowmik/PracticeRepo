@@ -21,20 +21,19 @@ public class Tesla {
         int initialSpeed = 1500;
 
 //declaring array to store the elements one by one
-        List<Integer> list = new ArrayList<>();
+        List<Integer> li = new ArrayList<>();
 
 //just iterating the array and storing the updated result in another place one by onne
 
-//added all the elements in the list
-        for (int num : diffs) {
-            list.add(num);
-        }
-
 //now iterate add and store updated values
 
-        for (int i = 0; i < list.size(); i++) {
-            list.get(i);
+        for (int i = 0; i < n; i++){
+            int update = initialSpeed + diffs[i];
+            li.add(update);
         }
+
+
+
 
 
 
@@ -44,5 +43,6 @@ public class Tesla {
         // }
 
 
+        return null;
     }
 }
