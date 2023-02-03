@@ -5,13 +5,9 @@ public class MathProfessor {
         char[] arrayB = B.toCharArray();
         Set<Character> setB = new HashSet<>();
         List<Integer> result = new ArrayList<>();
-
-
         for (int i = 0; i < arrayB.length; i++) {
             setB.add(arrayB[i]);
         }
-
-
         List<Set> listC = new ArrayList<>();
         for (int i = 0; i < a.length; i++) {
             Set<Character> setA = new HashSet<>();
@@ -22,8 +18,6 @@ public class MathProfessor {
             }
             listC.add(setA);
         }
-
-
         for (Set s : listC) {
             int count = 0;
             Iterator<Character> it = setB.iterator();
@@ -35,15 +29,12 @@ public class MathProfessor {
             }
             result.add(count);
         }
-
-
         int[] finalResult = new int[result.size()];
         for (int i = 0; i < finalResult.length; i++) {
             finalResult[i] = result.get(i);
         }
         return finalResult;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -56,6 +47,5 @@ public class MathProfessor {
         int[] res = mathProfessor(n, B, a);
         for (int i : res)
             System.out.print(i + " ");
-
     }
 }

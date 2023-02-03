@@ -3,7 +3,6 @@ package dsa;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class Tesla {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -15,7 +14,6 @@ public class Tesla {
         int[] ans = tesla(n, diffs);
         System.out.println(ans[0] + " " + ans[1]);
     }
-
     static int[] tesla(int n, int[] diffs) {
 
         int initialSpeed = 1500;
