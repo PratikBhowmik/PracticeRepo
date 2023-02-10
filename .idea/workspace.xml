@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/Duplicates_in_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/corejavatwo/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/corejavatwo/FirstMissingPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/corejavatwo/JavaRegexPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/StreamsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/StreamsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/DuplicatesSplitTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/DuplicatesSplitTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/Problem_one.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/Problem_Tandemloop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +73,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.MultipleCharacterCount">
-    <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.AnagramCheck" />
+}]]></component>
+  <component name="RunManager" selected="Application.DuplicatesSplitTwo">
+    <configuration name="CountUpperLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.CountUpperLower" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountUpperLower" />
         <item itemvalue="Application.MultipleCharacterCount" />
         <item itemvalue="Application.DuplicatesSplitTwo" />
         <item itemvalue="Application.DuplicatesSplitOne" />
         <item itemvalue="Application.Triangle_Pattern" />
-        <item itemvalue="Application.AnagramCheck" />
       </list>
     </recent_temporary>
   </component>

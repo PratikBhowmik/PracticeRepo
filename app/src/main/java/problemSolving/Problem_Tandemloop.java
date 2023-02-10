@@ -1,5 +1,5 @@
 package problemSolving;
-public class Problem_one {
+public class Problem_Tandemloop {
     public static void main(String[] args) {
         //Problem given make output like this
         //ABDEF -> GFECB

@@ -12,6 +12,6 @@ public class StreamsPractice {
                 .map(n -> n.split("(?=\\d)"))
                 .collect(Collectors.toMap((e -> Integer.parseInt(e[1])), e -> e[0]));
         s = map.values().stream().collect((Collectors.joining(" ")));
-        System.out.println("The modified string is as follows -> "+s);
+        System.out.println("The modified string is as follows -> " + s);
     }
 }
