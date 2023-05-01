@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="78e9c238-1fae-4f00-989a-796479a653ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/corejavatwo/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/corejavatwo/FirstMissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/corejavatwo/JavaRegexPractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dsa/StreamsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dsa/StreamsPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/DuplicatesSplitTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/DuplicatesSplitTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/Problem_one.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/Problem_Tandemloop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/AnagramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/AnagramCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/Fibonnaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/Fibonnaci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/problemSolving/Triangle_Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/problemSolving/Triangle_Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/MyntraTest/MyntraEndToEndFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/MyntraTest/MyntraEndToEndFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +58,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/DesiredCapabilities.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,20 +69,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DuplicatesSplitTwo">
-    <configuration name="CountUpperLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.CountUpperLower" />
+}</component>
+  <component name="RunManager" selected="Application.Diamond">
+    <configuration name="Diamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.Diamond" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicatesSplitOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.DuplicatesSplitOne" />
+    <configuration name="Fibonnaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemSolving.Fibonnaci" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicatesSplitTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.DuplicatesSplitTwo" />
+    <configuration name="GETrequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="APItest.GETrequest" />
       <module name="CoreJavatwo.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemSolving.*" />
+          <option name="PATTERN" value="APItest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleCharacterCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problemSolving.MultipleCharacterCount" />
-      <module name="CoreJavatwo.app.main" />
+    <configuration name="MyntraEndToEndFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyntraTest.MyntraEndToEndFlow" />
+      <module name="CoreJavatwo.app.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problemSolving.*" />
+          <option name="PATTERN" value="MyntraTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountUpperLower" />
-        <item itemvalue="Application.MultipleCharacterCount" />
-        <item itemvalue="Application.DuplicatesSplitTwo" />
-        <item itemvalue="Application.DuplicatesSplitOne" />
+        <item itemvalue="Application.Diamond" />
         <item itemvalue="Application.Triangle_Pattern" />
+        <item itemvalue="Application.GETrequest" />
+        <item itemvalue="Application.MyntraEndToEndFlow" />
+        <item itemvalue="Application.Fibonnaci" />
       </list>
     </recent_temporary>
   </component>

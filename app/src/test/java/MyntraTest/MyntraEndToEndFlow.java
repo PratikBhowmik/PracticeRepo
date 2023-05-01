@@ -56,17 +56,10 @@ public class MyntraEndToEndFlow {
                 Thread.sleep(3000);
                 WebElement removeBtn = driver.findElement(By.xpath("//button[text()='REMOVE']"));
                 removeBtn.click();
-
-
             } else {
                 System.out.println("There are no children");
             }
         }
-
         driver.switchTo().window(currentWindow);
-
-
-
-
     }
 }
