@@ -1,5 +1,7 @@
 package dsa;
+
 import java.util.Scanner;
+
 public class SecretAgent {
     static String secretAgentII(String s) {
         //StringBuffer sb = new StringBuffer();
@@ -18,6 +20,7 @@ public class SecretAgent {
         }
         return result;
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();

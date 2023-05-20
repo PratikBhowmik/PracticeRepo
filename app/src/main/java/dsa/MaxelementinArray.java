@@ -1,26 +1,33 @@
 package dsa;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class MaxelementinArray {
-    static int functionMaxelementinArray(int n, int[] a) {
-        Arrays.sort(a);
-        int max_count = 1;
-        int result = a[0];
-        int curr_count = 1;
-        for (int i = 1; i < n; i++) {
-            if (a[i] == a[i - 1]) {
-                curr_count++;
+    static int functionMaxe(int n, int[] a) {
+        Map<Integer,Integer> map = new HashMap<>();
+        int max = -1;
+        int finaltemp = -1;
+        for (int i = 0; i < a.length; i++) {
+            int key = a[i];
+            if (map.containsKey(key)) {
+                int oldvalue = map.get(key);
+                map.put(key, oldvalue + 1);
             } else {
-                curr_count = 1;
+                map.put(key, 1);
             }
-            if (curr_count > max_count) {
-                max_count = curr_count;
-                result = a[i - 1];
+
+            if (map.get(key) == max) {
+                if (finaltemp < key) {
+                    finaltemp = key;
+                }
+            }
+
+            if (map.get(key) >= max) {
+                max = map.get(key);
+                finaltemp = a[i];
             }
         }
-        return result;
+        return finaltemp;
     }
 }
